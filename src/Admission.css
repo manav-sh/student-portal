@@ -1,0 +1,88 @@
+.form-container {
+    margin-top: 50px!important;
+    margin-bottom: 20px;
+}
+.back-button {
+    background-color: #fff;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+}
+.back-button:hover {
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0 0 1px 5px #424141;
+}
+.progressBar {
+    height: 9px;
+    border-radius: 5px;
+    background-color: #2C3469;
+}
+.admission-input-text {
+    font-size: 15px;
+}
+.two-col {
+    display: flex;
+    width: 94%;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.col {
+    width: 45%!important;
+    background-color: #fff!important;
+}
+.form-input {
+    width: 90%;
+}
+option {
+    background-color: #fff;
+    color: #000;
+}
+.radio-input-group {
+    display: flex;
+    background-color: #fff;
+    justify-content: flex-start;
+    margin: 10px 0!important;
+}
+.radio-group {
+    background-color: #fff;
+    margin: 0 20px 0 0;
+}
+
+.admission-submit {
+    background-color: #2C3469;
+    padding:10px;
+    font-size: 17px; letter-spacing: 3px;
+}
+.admission-submit:hover {
+    box-shadow: 0 0 10px 1px #384cce;
+}
+.form-top-mg {
+    margin-top: 10px;
+}
+.thanks {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 120px;
+    font-weight: lighter;
+    color: #2C3469;
+    background-color: #fff;
+}
+.thanksTitle {
+    color: #2C3469;
+    font-family: 'Mulish', sans-serif;
+    font-size: 26px; margin: 5px; font-weight: 600;
+    background-color: #fff;
+}
+.thanksContent {
+    font-size: 15px;
+    color: #2C3469;
+    background-color: #fff;
+    margin:0;
+}
+@media screen and (max-width: 500px) {
+    .form-container {
+        margin: 20px 0 0 0;
+        min-width: none;
+    }
+}
